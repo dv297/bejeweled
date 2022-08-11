@@ -21,7 +21,7 @@ const Board = () => {
     return result;
   }, []);
 
-  return <div className="grid grid-cols-7">{cells}</div>;
+  return <div className="board-container grid grid-cols-7">{cells}</div>;
 };
 
 export default Board;

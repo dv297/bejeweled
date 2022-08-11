@@ -6,12 +6,9 @@ const MainGame = () => {
   return (
     <>
       <AudioElement />
-      <div className="flex flex-row">
-        <div className="w-64 py-4 bg-gray-200">
-          <ScoreDisplay />
-        </div>
-
-        <div className="flex flex-col">
+      <div className="flex flex-row h-screen">
+        <ScoreDisplay />
+        <div className="game-area flex flex-col justify-center items-center w-full">
           <Board />
         </div>
       </div>

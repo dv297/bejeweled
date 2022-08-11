@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import "./App.css";
 import MainGame from "./components/MainGame";
 import MainMenu from "./components/MainMenu";
 
