@@ -1,11 +1,8 @@
-import { useGameStateStore } from "../stores/GameStateStore";
-import Row from "./Row";
 import ScoreDisplay from "./ScoreDisplay";
 import AudioElement from "./AudioElement";
+import Board from "./Board";
 
 const MainGame = () => {
-  const grid = useGameStateStore((state) => state.grid);
-
   return (
     <>
       <AudioElement />
@@ -15,9 +12,7 @@ const MainGame = () => {
         </div>
 
         <div className="flex flex-col">
-          {grid.map((row, index) => (
-            <Row rowIndex={index} key={index} />
-          ))}
+          <Board />
         </div>
       </div>
     </>
