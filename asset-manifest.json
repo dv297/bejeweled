@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bejeweled/static/css/main.0c9e1b51.css",
+    "main.js": "/bejeweled/static/js/main.1b768348.js",
+    "static/js/787.4a299c59.chunk.js": "/bejeweled/static/js/787.4a299c59.chunk.js",
+    "static/media/desert_background.jpeg": "/bejeweled/static/media/desert_background.52886cccea36b7f55aaa.jpeg",
+    "index.html": "/bejeweled/index.html",
+    "main.0c9e1b51.css.map": "/bejeweled/static/css/main.0c9e1b51.css.map",
+    "main.1b768348.js.map": "/bejeweled/static/js/main.1b768348.js.map",
+    "787.4a299c59.chunk.js.map": "/bejeweled/static/js/787.4a299c59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c9e1b51.css",
+    "static/js/main.1b768348.js"
+  ]
+}
